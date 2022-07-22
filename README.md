@@ -9,6 +9,7 @@ fetaeib/fetaeib is a ✨ special ✨ repository because its `README.md` (this fi
 You can click the Preview link to take a look at your changes.
 --->
 
+```mermaid
 graph TD
     A[SI-ALL] --> |Portfolio owner bank accounts| B(SI-OWN)
     A --> |Counterparty bank accounts| C(SI-CPTY)
@@ -24,3 +25,4 @@ graph TD
     I --> |custody|L(SI-OWN-CCB-CUST)
     I --> |cash| M(SI-OWN-CCB-NOST)
     I --> |Admin/Fees/Payments/Transfers| N(SI-OWN-CCB-OTH)
+```
